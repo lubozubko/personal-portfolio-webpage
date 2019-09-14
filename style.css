@@ -208,7 +208,7 @@ nav {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 800px;
+    height: 900px;
     background: #ecf0ff;
 }
 
@@ -239,7 +239,7 @@ nav {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 500px;
+    height: 600px;
     background: #03a9f4;
 }
 
@@ -252,18 +252,25 @@ nav {
 .contact-btn {
     color: #ecf0ff;
     font-size: 25px;
+    margin: 25px;
     border: 2px solid #ecf0ff;
     border-radius: 5px;
     padding: 15px 55px;
-
 }
 
+.contact-btn:hover {
+    color: #03a9f4;
+    background: #ecf0ff;
+    -webkit-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
 .list-inline-item i {
     color: #ecf0ff;
     padding: 15px 25px;
     font-size: 35px;
     border-radius: 5px;
-    border: 2px solid #ecf0ff;
     text-shadow: 0.8px 1px 1px #000000;
 }
 
@@ -276,14 +283,50 @@ nav {
     transition-duration: 0.5s;
 }
 
-.fa-free-code-camp {
-
-}
-.list-inline-item .fa-free-code-camp:hover {
+/* social media icons */
+.list-inline-item .fa-free-code-camp {
     color: #006400;
 }
-.list-inline-item .fa-twitter:hover {
+
+.list-inline-item .fa-free-code-camp:hover {
+    color: #ecf0ff;
+    background: #006400;
+}
+
+.list-inline-item .fa-codepen {
+    color: #000000;
+}
+
+.list-inline-item .fa-codepen:hover {
+    color: #ecf0ff;
+    background: #000000;
+}
+
+.list-inline-item .fa-linkedin {
+    color: #0077B5;
+}
+
+.list-inline-item .fa-linkedin:hover {
+    color: #ecf0ff;
+    background: #0077B5;
+}
+
+.list-inline-item .fa-github {
+    color: #24292e;
+}
+
+.list-inline-item .fa-github:hover {
+    color: #ecf0ff;
+    background: #24292e;
+
+}
+
+.list-inline-item .fa-twitter {
     color: #3CF;
+}
+.list-inline-item .fa-twitter:hover {
+    color: #ecf0ff;
+    background: #3CF;;
 }
 
 
