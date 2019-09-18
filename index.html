@@ -1,34 +1,35 @@
-<!-- Coded by Lubomir Zubko -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Portfolio - Lubomir Zubko</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    
-<!-- navbar -->
-<nav id="navbar">
 
-    <!-- nav image -->
-    <div id="nav-image">
-        <a href="#"><img id="logo-pic" src="img/logo-black.png" alt="Logo"></a>
-    </div>
+<header>
+    <!-- navbar -->
+    <nav id="navbar">
 
-    <!-- nav links -->
-    <div id="nav-links">
-        <ul id="nav-list">
-            <a href="#about-section"><li class="nav-link">About</li></a>
-            <a href="#portfolio-section"><li class="nav-link">Porftolio</li></a>
-            <a href="#contact-section"><li class="nav-link">Contact</li></a>
-        </ul>
-    </div>
+        <!-- nav image -->
+        <div class="nav-image">
+            <a href="#"><img id="logo-pic" src="img/logo-black.png" alt="Logo"></a>
+        </div>
 
-</nav>
+        <!-- nav links -->
+        <div class="nav-links">
+            <ul class="nav-list">
+                <a href="#about-section"><li class="nav-link">About</li></a>
+                <a href="#portfolio-section"><li class="nav-link">Porftolio</li></a>
+                <a href="#contact-section"><li class="nav-link">Contact</li></a>
+            </ul>
+        </div>
+
+    </nav>
+</header>
 
 <!-- welcome section -->
 <div class="welcome" id="welcome-section">
@@ -71,11 +72,11 @@
 </div>
 
 <!-- portfolio section -->
-<div class="portfolio" id="projects">
+<div class="portfolio" id="portfolio-section">
 
     <h1 id="portfolio-heading">Portfolio</h1>
 
-    <div id="items-wrap">
+    <div id="projects">
         <a href="https://codepen.io/lubozubko/full/LKNdRO" target="_blank"><img class="project-tile" src="img/patatap.png" alt="Patatap clone screenshot"></a>
         <a href="https://codepen.io/lubozubko/full/ZZKOdY" target="_blank"><img class="project-tile" src="img/color-game.png" alt="Color game screenshot"></a>
         <a href="https://codepen.io/lubozubko/full/jONrmKa" target="_blank"><img class="project-tile" src="img/technical.png" alt="Technical documentation page screenshot"></a>
@@ -99,17 +100,18 @@
 
     <h2 class="contact-subheading">You can also connect with me on: </h2>
     <!-- social media buttons -->
-    <ul class="list-inline">
-        <li class="list-inline-item footer-social" ><a href="https://www.freecodecamp.org/lubozubko" id="profile-link" target="_blank"><i class="fab fa-free-code-camp"></i></a></li>
-        <li class="list-inline-item footer-social"><a href="https://codepen.io/lubozubko" id="profile-link" target="_blank"><i class="fab fa-codepen"></i></a></li>
-        <li class="list-inline-item footer-social"><a href="https://github.com/lubozubko" id="profile-link"target="_blank"><i class="fab fa-github"></i></a></li>
-        <li class="list-inline-item footer-social"><a href="https://www.linkedin.com/in/lubomir-zubko-76b145bb/" id="profile-link" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-        <li class="list-inline-item footer-social"><a href="https://twitter.com/lubozubko" id="profile-link" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    <ul class="footer-social">
+        <li class="footer-social-item"><a id="profile-link" href="https://www.freecodecamp.org/lubozubko" target="_blank"><i class="fab fa-free-code-camp"></i></a></li>
+        <li class="footer-social-item"><a href="https://codepen.io/lubozubko" target="_blank"><i class="fab fa-codepen"></i></a></li>
+        <li class="footer-social-item"><a href="https://github.com/lubozubko" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li class="footer-social-item"><a href="https://www.linkedin.com/in/lubomir-zubko-76b145bb/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li class="footer-social-item"><a href="https://twitter.com/lubozubko" target="_blank"><i class="fab fa-twitter"></i></a></li>
     </ul>
-
+    <!-- copyright -->
     <p id="copyright">2019 &copy; Lubo Zubko</p>
 
 </div>
+
 
 </body>
 </html>
