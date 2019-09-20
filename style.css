@@ -245,7 +245,15 @@ nav {
 .project-tile {
     width: 280px;
     height: 280px;
-    margin: 5px;
+    margin: 15px 5px;
+    transition:transform 1s;
+}
+
+.project-tile:hover {
+    -webkit-transform: translate(0, -20px);
+    -moz-transform: translate(0, -20px);
+    -o-transform: translate(0, -20px);
+    transform: translate(0, -20px);
 }
 
 /* contact */
@@ -293,7 +301,7 @@ nav {
     display: flex;
     flex-direction: row;
     list-style: none;
-    padding: 15px;
+    padding: 5px;
 }
 
 .footer-social-item {
@@ -302,8 +310,8 @@ nav {
 
 .footer-social-item i {
     color: #ecf0ff;
-    padding: 15px 25px;
-    font-size: 35px;
+    padding: 15px;
+    font-size: 30px;
     border-radius: 5px;
     border: 1px solid #ecf0ff;
     text-shadow: 0.8px 1px 1px #000000;
