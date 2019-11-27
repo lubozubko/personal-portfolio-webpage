@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Varela+Round&display=swap');
 
+/* COLORS
+cyanite: #0abde3;
+megaman: #48dbfb;
+silver: #f5f6fa;
+ */
+
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +17,7 @@ html {
 }
 
 body {
-    background: lightgrey;
+    background: #c8d6e5;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -94,7 +100,7 @@ nav {
 }
 
 .nav-link:hover {
-    color: #03a9f4;
+    color: #0abde3;
     -webkit-transform: scale(1.15, 1.15);
     -ms-transform: scale(1.15, 1.15);
     -o-transform: scale(1.15, 1.15);
@@ -136,7 +142,7 @@ nav {
 }
 
 #sub-heading {
-    color: #03a9f4;
+    color: #0abde3;
     font-size: 4.5rem;
     padding: 1rem;
     z-index: 9;
@@ -144,15 +150,15 @@ nav {
 }
 
 .far {
-margin: 3.5rem;
-font-size: 5.5rem   ;
-color: #ecf0ff;
-z-index: 9;
+    margin: 3.5rem;
+    font-size: 5.5rem   ;
+    color: #ecf0ff;
+    z-index: 9;
 }
 
 #scroll {
-animation: moveInBottom 0.6s ease-out;
-z-index: 9;
+    animation: moveInBottom 0.6s ease-out;
+    z-index: 9;
 }
 
 /* about section  */
@@ -162,7 +168,7 @@ z-index: 9;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    background: #03a9f4;
+    background: #0abde3;
     width: 100%;
     height: 100%;
 }
@@ -177,28 +183,40 @@ z-index: 9;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 .about-pic {
-    margin: 2.5rem;
+    display: inline-block;
+    border-radius: 1rem;
+    margin: 3rem;
+    position: relative;
     width: 29.8rem;
     height: 41rem;
-    border-radius: 0.5rem;
 }
 
 .about-div {
-    padding: 0 1.5rem 5.5rem 1.5rem;
+    margin: 3rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background: #48dbfb;
 }
 
 .about-text {
     text-align: left;
     font-size: 2rem;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 #about-subheading {
     color: #ecf0ff;
     padding: 2.5rem 0;
     text-shadow: 0.08rem 0.1rem 0.1rem #000000;
+}
+
+.skills-div {
+    height: 30rem;
+    background: #48dbfb;
+
 }
 
 .skill {
@@ -231,11 +249,11 @@ z-index: 9;
     padding-bottom: 5.5rem;
     width: 100%;
     height: 100%;
-    background: #ecf0ff;
+    background: #f5f6fa;
 }
 
 #portfolio-heading {
-    color: #03a9f4;
+    color: #0abde3;
     text-shadow: 0.08rem 0.1rem 0.1rem #000000;
     padding: 7rem 0 3.5rem 0;
 }
@@ -271,7 +289,7 @@ z-index: 9;
     text-align: center;
     width: 100%;
     height: 100%;
-    background: #03a9f4;
+    background: #0abde3;
 }
 
 #contact-heading {
@@ -299,7 +317,7 @@ z-index: 9;
 
 .contact-btn:hover {
     background: #ecf0ff;
-    color: #03a9f4;
+    color: #0abde3;;
     transform: translateY(-5px);
     box-shadow: 0 1rem 2rem rgba(2, 2, 2, 0.3);
 }
@@ -425,44 +443,58 @@ z-index: 9;
 @keyframes zoomIn {
     0% {
         opacity: 0;
-        transform: scale(0.7); }
+        transform: scale(0.7);
+    }
     100% {
         opacity: 1;
-        transform: scale(1); }
+        transform: scale(1);
+    }
 }
 
 @keyframes moveInTop {
     0% {
         opacity: 0;
-        transform: translateY(-10rem); }
+        transform: translateY(-10rem);
+    }
     80% {
-        transform: translateY(1rem); }
+        transform: translateY(1rem);
+    }
     100% {
         transform: translateY(0);
-        opacity: 1; }
+        opacity: 1;
+    }
 }
 
 @keyframes moveInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-10rem); }
+        transform: translateX(-10rem);
+    }
     80% {
-        transform: translateX(3rem); }
+        transform: translateX(3rem);
+    }
     100% {
         transform: translateX(0);
-        opacity: 1; }
+        opacity: 1;
+    }
 }
 
 @keyframes moveInBottom {
     0% {
         opacity: 0;
-        transform: translateY(+10rem); }
+        transform: translateY(+10rem);
+    }
     80% {
-        transform: translateY(-3rem); }
+        transform: translateY(-3rem);
+    }
     100% {
         transform: translateX(0);
-        opacity: 1; }
+        opacity: 1;
+    }
 }
+
+
+
 
 
 
