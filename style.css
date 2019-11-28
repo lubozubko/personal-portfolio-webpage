@@ -201,22 +201,22 @@ nav {
     background: #48dbfb;
 }
 
-.about-text {
-    text-align: left;
+.paragraph {
+    letter-spacing: 0.05rem;
+    text-align: center;
     font-size: 2rem;
     padding: 1rem;
+}
+
+.subheading {
+    font-size: 2.5rem;
+    padding: 2.5rem;
 }
 
 #about-subheading {
     color: #ecf0ff;
     padding: 2.5rem 0;
     text-shadow: 0.08rem 0.1rem 0.1rem #000000;
-}
-
-.skills-div {
-    height: 30rem;
-    background: #48dbfb;
-
 }
 
 .skill {
@@ -298,9 +298,6 @@ nav {
     padding: 7rem 0 3.5rem 0;
 }
 
-.contact-subheading {
-    padding: 1.5rem 2.5rem;
-}
 .contact-btn:link, .contact-btn:visited {
     display: inline-block;
     position: relative;
